@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ttak-pul"
+version = "0.1.0"
+description = "여러 장의 사진을 하나의 사진처럼 자연스럽게 이어붙입니다."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [{ name = "권민우" }, { name = "이상진" }, { name = "조연수" }, { name = "천지명" }, { name = "최유민" }]
+dependencies = ["Pillow>=10", "numpy>=1.26"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/umin36/oss_teamproject"
+Documentation = "https://umin36.github.io/oss_teamproject/"
+Issues = "https://github.com/umin36/oss_teamproject/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ttak_pul"]
