@@ -4,7 +4,9 @@ import numpy as np
 from PIL import Image
 
 def resize(path, width):
-    """Resize an image to the given width, keeping its aspect ratio.
+    """
+    (테스트용 문장)
+    Resize an image to the given width, keeping its aspect ratio.
 
     Args:
         path (str): Path to the input image file.
